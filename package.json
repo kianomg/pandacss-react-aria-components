@@ -20,11 +20,12 @@
   "types": "dist/index.d.ts",
   "files": [
     "dist",
-    "src"
+    "src",
+    "NOTICE.txt"
   ],
   "scripts": {
     "build": "unbuild",
-    "test": "vitest",
+    "test": "vitest run",
     "prepare": "npm run build",
     "prepublishOnly": "npm test"
   },
