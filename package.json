@@ -2,6 +2,11 @@
   "name": "pandacss-react-aria-components",
   "version": "1.0.0",
   "description": "A Panda preset for React Aria Components",
+  "bugs": "https://github.com/kianomg/pandacss-react-aria-components/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kianomg/pandacss-react-aria-components.git"
+  },
   "type": "module",
   "exports": {
     ".": {
@@ -19,7 +24,9 @@
   ],
   "scripts": {
     "build": "unbuild",
-    "test": "vitest"
+    "test": "vitest",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test"
   },
   "keywords": [
     "pandacss",
