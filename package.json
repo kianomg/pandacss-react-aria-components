@@ -1,0 +1,37 @@
+{
+  "name": "pandacss-react-aria-components",
+  "version": "1.0.0",
+  "description": "A Panda preset for React Aria Components",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "unbuild"
+  },
+  "keywords": [
+    "pandacss",
+    "preset",
+    "react-aria",
+    "react-aria-components"
+  ],
+  "author": "kianomg",
+  "license": "0BSD",
+  "dependencies": {
+    "@pandacss/types": "^0.41.0"
+  },
+  "devDependencies": {
+    "unbuild": "^2.0.0"
+  }
+}
