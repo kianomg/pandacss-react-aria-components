@@ -6,6 +6,10 @@ A [Panda](https://panda-css.com/) preset for [React Aria Components](https://rea
 
 ```bash
 npm i -D pandacss-react-aria-components
+# or
+yarn add -D pandacss-react-aria-components
+# or
+pnpm add -D pandacss-react-aria-components
 ```
 
 ## Usage
