@@ -23,6 +23,7 @@ export interface PresetOptions {
 
 const createPreset = (options: PresetOptions = {}): Preset =>
   definePreset({
+    name: 'pandacss-react-aria-components',
     conditions: {
       extend: createConditions(options),
     },
